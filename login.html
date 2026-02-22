@@ -14,15 +14,15 @@
 	<body>
 		<div id="loginparentdiv" class="login-container">
 			<div id="loginmaindiv" class="ip">
-				<form method="post" action="home.html">
+				<form method="get" action="home.html"> <!--method="post"-->
 					<div class="login-form">
 						<div class="form-row">
 							<label class="formattext" for="username">Username:</label>
-							<input class="round" id="username" type="text" name="name">
+							<input class="round" id="username" type="text" name="name" required>
 						</div>
 						<div class="form-row">
 							<label class="formattext" for="password">Password:</label>
-							<input class="round" id="password" type="password" name="pass" autocomplete="off">
+							<input class="round" id="password" type="password" name="pass" autocomplete="off" required>
 						</div>
 						<div class="form-row submit-row">
 							<input class="loginButt formattext" type="submit" value="Login">
